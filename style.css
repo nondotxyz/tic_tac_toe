@@ -1,0 +1,23 @@
+.board {
+  display: grid;
+  width: 100vh;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+  width: 10rem;
+  height: 10rem;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  border: 1vi solid black;
+  cursor: pointer;
+  font-size: 7rem;
+  display: flex;
+}
